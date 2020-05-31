@@ -1,6 +1,6 @@
 {
     "name": "shohel/pluggable",
-    "description": "Enable action/filter hook to make your PHP project extendable",
+    "description": "Add actions/filters hook to make your Laravel | Codeigniter | PHP project extensible",
     "type": "library",
     "require": {
         "php": ">=5.4"
