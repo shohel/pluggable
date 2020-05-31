@@ -38,6 +38,12 @@ Include composer autoload file to your project before bootsrap / entry point.
 ```php
 // include composer autoload
 require 'vendor/autoload.php';
+
+// import the Pluggable HookManager Class
+use Shohel\Pluggable\HookManager;
+
+// create a hook manager instance, composer will do rest
+$hookManager = new HookManager();
 ```
 
 Pluggable will do the rest.
