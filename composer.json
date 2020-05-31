@@ -1,0 +1,21 @@
+{
+    "name": "shohel/pluggable",
+    "description": "Enable action/filter hook to make your PHP project extendable",
+    "type": "library",
+    "require": {
+        "php": ">=5.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mh Shohel",
+            "email": "mhshohel89@gmail.com"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "Shohel\\Pluggable\\": "src/"
+        }
+    }
+}
