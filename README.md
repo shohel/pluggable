@@ -20,9 +20,9 @@ Integration in Laravel
 
 Pluggable has great support for Laravel and comes with a Service Provider for easy integration. The vendor/autoload.php is included by Laravel, so you don't have to require or autoload manually. Just see the instructions below.
 
-After you have installed Pluggable, open your Laravel config file config/app.php and add the following lines.
+After you have installed Pluggable, open your Laravel config file **`config/app.php`** and add the following lines.
 
-In the $providers array add the service providers for this package at the very first line.
+In the $providers array add the service providers for this package as the very first item.
 
 ```php
 \Shohel\Pluggable\PluggableServiceProvider::class,
